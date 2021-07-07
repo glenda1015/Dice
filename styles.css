@@ -1,0 +1,73 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+body {
+  background-color: #F98404;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #AA2EE6;
+}
+
+p {
+  font-size: 2rem;
+  color: #F7FD04;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+/* Button Section */
+#button-section {
+  padding-top: 5rem;
+}
+
+.btn {
+  box-shadow: inset 0px 1px 0px 0px #e184f3;
+  background: linear-gradient(to bottom, #c123de 5%, #a20dbd 100%);
+  background-color: #c123de;
+  border-radius: 42px;
+  border: 1px solid #a511c0;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Indie Flower', cursive;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 20px 70px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #9b14b3;
+}
+
+.btn:hover {
+  background: linear-gradient(to bottom, #a20dbd 5%, #c123de 100%);
+  background-color: #a20dbd;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+/* Footer Section */
+footer {
+  margin-top: 5%;
+  color: #F7FD04;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  font-size: 3rem;
+}
